@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color:azure;
+}
+.first{
+    width:100%;
+    height:100vh;
+    background-color:#ace4e3;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.top-first{
+display:flex;
+justify-content:space-between;
+padding:50px;
+}
+.bottom-first{
+    display:flex;
+    justify-content:space-between;
+    padding:50px;
+    }
+.mid-first{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+
+}  
+.cards{
+  
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0B4350 ;
+
+    
+}  
+
+
+.card1{
+    height:500px;
+    width: 85vh;
+    background-color: #0B4350;
+    color: white;
+    padding: 5vh;
+    margin-top: 5%;
+    border-radius: 7%;
+    border-style: solid;
+    border-color:#F58BCF;
+    border-width: 3px;
+
+}
+.number{
+    color:white
+    text
+}
+.card-inner{
+    display: flex;
+    justify-content: space-between;
+    color:#F58BCF
+}
+
+.myth{
+    display:flex;
+    flex-direction: column;
+    margin-right: 35%;
+}
+.myth-content{
+    font-weight:200
+}
+.Fact{
+    display:flex;
+    flex-direction: column;
+}
+.faltu-section{
+    height:50vh;
+    background-color: #003e29;
+    margin-top:2%;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.circle{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 70%;
+    
+}
+
+.c1{
+    z-index:1
+}
+
+.c2{
+    z-index:2
+}
+
+.c3{
+    z-index:3
+}
+
+.c4{
+    z-index:4
+}
+
+.c5{
+    z-index:5
+}
